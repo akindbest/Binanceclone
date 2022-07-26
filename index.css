@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    /* background-color: red; */
+    margin: 20px 20px;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    color: #1e2329;
+    font-size: 15px;
+}
+
+ .image-logo{
+    /* margin-left: -50px; */
+}
+
+#left-bar{
+    display: flex;
+    gap: 30px;
+    /* color: #1e2329; */
+}
+
+#right-bar{
+    display: flex;
+    gap: 30px;
+    /* color: #1e2329; */
+}
+
+#box-div{
+    background-color: #fafafa;
+}
+
+#buy-div h1{
+    font-size: 56px;
+    font-family: sans-serif !important;
+    font-weight: 510;
+}
+
+#buy-div{
+    width: 486px;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.buy-plant{
+    display: flex;
+    margin: auto;
+    padding: 24px;
+    background-color: #fafafa;
+}
+
+#plant-img{
+    width: 800px;
+    padding-left: 100px;
+    margin-top: 40px;
+}
+
+.input-class{
+    padding: 12px 20px;
+    width: 250px;
+    /* background-color: red; */
+}
+
+button{
+    background-color: #fcd535;
+    padding: 15px;
+    width: 150px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 10px !important;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.money-div{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.money-div h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.money-div p{
+    margin-bottom: 60px;
+    color: #4d5156;
+}
+
+#second-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 60px 0;
+    padding: 0 40px 0 40px;
+}
+
+#newt-div{
+    margin-top: 40px;
+}
+
+#newt-div p{
+    color: #4d5156;
+}
+
+#pop-crypto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 40px 0 40px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 30px;
+}
+
+#side-section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+}
+
+.name-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.name-div a{
+    display: flex;
+    align-items: center;
+}
+
+.last-price-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.last-price-div > a{
+    padding: 5px;
+}
+
+.twenty-four-h-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.twenty-four-h-div > a{
+    padding: 5px;
+}
+
+.market-cap-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.market-cap-div > a{
+    padding: 5px;
+}
+
+a span{
+    margin-left: 10px;
+    color: #848d9b;
+    font-size: 14px;
+}
+
+
+a img{
+    margin-right: 20px;
+}
+
+#side-section p{
+    color: #848d9b;
+    font-size: 14px;
+}
+
+#build-photo{
+    display: flex;
+    gap: 20%;
+    width: 90%;
+    margin: auto;
+    /* justify-content: space-around; */
+    /* margin: 0 auto 0 auto; */
+    /* padding: 0 45px 0 45px; */
+}
+
+#user-div{
+    display: flex;
+    align-items: center;
+}
+
+#fund-div{
+    margin-left: 30px;
+}
+
+#kyc-div{
+    display: flex;
+    align-items: center;
+}
+
+#verify-div{
+    margin-left: 30px;
+}
+
+#spot-div{
+    display: flex;
+    align-items: center;
+}
+
+#start-div{
+    margin-left: 30px;
+}
+
+@media only screen (max-width:360px){
+    
+}
